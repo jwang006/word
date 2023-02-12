@@ -1,0 +1,72 @@
+
+/*This is a comment in CSS*/
+
+body{
+    font-family: Georgia;
+}
+
+h1{
+    font-size: 50px;
+     text-align: center; 
+   
+     margin-left: -20%;
+}
+h2{
+    font-size: 30px;
+    padding:200px;
+}
+h3{
+    font-size: 60px;
+    text-align: center;
+    padding:100px;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    padding:300px;
+}
+h5{
+    font-size: 55px;
+    text-align: center;
+    padding:30px;
+}
+p{
+    font-size: 20px;
+    text-align: center; 
+    margin-left: -20%;
+   
+}
+h6{
+    font-size: 60px;
+    text-align: center;
+    padding:10px;
+}
+.discribe{
+    position: absolute;
+    width:200px;
+    left: 50%;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+   
+}
+/* When giving a child element position absolute you should give the parent position value as well */
+/* The child will then be positioned absolute in realtion to the box container of the parent */
+/* positioning elements on the page is fundamental to understanding CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/position */
+
+
+.random-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+  }
+  
+  .random {
+    position: absolute;
+  }
+  
+  
